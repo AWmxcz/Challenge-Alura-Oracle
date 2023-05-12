@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptar mensaje</title>
+        <link rel="stylesheet" href="reset.css/reset.css">
+        <link rel="stylesheet" href="challenges.css">
+    </head>
+
+    <body>
+
+        <header>
+            <img src="Imagenes/Logo.png" alt="">
+             <nav>
+                <ul>
+                    <li> 
+                        <p></p>
+                    </li>
+                    <li> 
+                        <h1>Desencripta y Encripta</h1>
+                    </li>
+                </ul>
+             </nav>
+            
+        </header>
+
+        <main>
+            <section class="section_ingresar_mensaje">
+                <input type="text" id="input_text" placeholder="Ingrese el texto aqui">
+                <div class="mensajeAdvertencia">
+                    <img src="Imagenes/bi_exclamation-circle-fill.png" alt="Es un icono de advertencia">
+                    <p class="mensajeAdvertencia_p">Solo se aceptan palabras minúsculas y sin acentos.</p>
+                </div>
+                
+                <div class="botton_aling">
+                    <button id="id_encriptar">Encriptar</button>
+                    <button id="id_desencriptar">Desencriptar</button>  
+                </div>
+                
+            </section>
+
+            <section class="section_verMensaje">
+                
+                    <div class="section_verMensaje_imagen">
+                        <img src="Imagenes/Muñeco.svg" alt="">
+                    </div>
+                    <div class="textoAyuda">
+                        <p id="ningunMensaje">Ningún mensaje fue <br>encontrado</br></p>
+                        <p id="encriptarDesencriptar">Ingresa el texto que desees encriptar o <br> desencriptar.</br></p>
+                    </div>
+                    
+                    <textarea id="id_textoArea"></textarea>
+                    <div class="botton_copiar">
+                        <button id="id_copiar">Copiar</button>   
+                    </div>
+               
+            </section>
+
+        </main>
+
+        <footer>
+            
+            <p class="copyreight">&copy copyreight Willian Alberto Rodriguez Sierra - 2023</p>
+        </footer>
+        
+        
+       <script src="challenges.js"></script>
+       
+
+    </body>
+
+</html>
+
+
